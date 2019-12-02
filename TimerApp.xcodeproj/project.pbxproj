@@ -10,20 +10,22 @@
 		70498EFF239008CE00A35C62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70498EFE239008CE00A35C62 /* AppDelegate.swift */; };
 		70498F01239008CE00A35C62 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70498F00239008CE00A35C62 /* SceneDelegate.swift */; };
 		70498F03239008CE00A35C62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70498F02239008CE00A35C62 /* ViewController.swift */; };
-		70498F06239008CE00A35C62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70498F04239008CE00A35C62 /* Main.storyboard */; };
 		70498F08239008D000A35C62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70498F07239008D000A35C62 /* Assets.xcassets */; };
 		70498F0B239008D000A35C62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70498F09239008D000A35C62 /* LaunchScreen.storyboard */; };
+		70498F1323900DA900A35C62 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70498F1223900DA900A35C62 /* SettingViewController.swift */; };
+		70498F1A23955F4A00A35C62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70498F1923955F4900A35C62 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		70498EFB239008CE00A35C62 /* TimerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70498EFB239008CE00A35C62 /* タイマーアプリ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "タイマーアプリ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70498EFE239008CE00A35C62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70498F00239008CE00A35C62 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		70498F02239008CE00A35C62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		70498F05239008CE00A35C62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		70498F07239008D000A35C62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70498F0A239008D000A35C62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70498F0C239008D000A35C62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70498F1223900DA900A35C62 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		70498F1923955F4900A35C62 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +50,7 @@
 		70498EFC239008CE00A35C62 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				70498EFB239008CE00A35C62 /* TimerApp.app */,
+				70498EFB239008CE00A35C62 /* タイマーアプリ.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,7 +61,8 @@
 				70498EFE239008CE00A35C62 /* AppDelegate.swift */,
 				70498F00239008CE00A35C62 /* SceneDelegate.swift */,
 				70498F02239008CE00A35C62 /* ViewController.swift */,
-				70498F04239008CE00A35C62 /* Main.storyboard */,
+				70498F1223900DA900A35C62 /* SettingViewController.swift */,
+				70498F1923955F4900A35C62 /* Main.storyboard */,
 				70498F07239008D000A35C62 /* Assets.xcassets */,
 				70498F09239008D000A35C62 /* LaunchScreen.storyboard */,
 				70498F0C239008D000A35C62 /* Info.plist */,
@@ -84,7 +87,7 @@
 			);
 			name = TimerApp;
 			productName = TimerApp;
-			productReference = 70498EFB239008CE00A35C62 /* TimerApp.app */;
+			productReference = 70498EFB239008CE00A35C62 /* タイマーアプリ.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -125,9 +128,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70498F1A23955F4A00A35C62 /* Main.storyboard in Resources */,
 				70498F0B239008D000A35C62 /* LaunchScreen.storyboard in Resources */,
 				70498F08239008D000A35C62 /* Assets.xcassets in Resources */,
-				70498F06239008CE00A35C62 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,20 +144,13 @@
 				70498F03239008CE00A35C62 /* ViewController.swift in Sources */,
 				70498EFF239008CE00A35C62 /* AppDelegate.swift in Sources */,
 				70498F01239008CE00A35C62 /* SceneDelegate.swift in Sources */,
+				70498F1323900DA900A35C62 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		70498F04239008CE00A35C62 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				70498F05239008CE00A35C62 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		70498F09239008D000A35C62 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +288,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.yahoo.chelsea-08ym.TimerApp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "タイマーアプリ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -310,7 +306,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.yahoo.chelsea-08ym.TimerApp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "タイマーアプリ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

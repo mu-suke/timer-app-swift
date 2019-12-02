@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="G4W-wq-MM3">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="タイマーアプリ" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fDH-el-ArR">
+                                <rect key="frame" x="107" y="323" width="200" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="ihY-4x-4pA"/>
+                                    <constraint firstAttribute="height" constant="50" id="kb7-sm-kdo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jr6-nq-cTB">
+                                <rect key="frame" x="52" y="473" width="150" height="150"/>
+                                <state key="normal" image="startBtn"/>
+                                <connections>
+                                    <action selector="startTimerAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6Hp-xr-F2b"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="khJ-nM-3IW">
+                                <rect key="frame" x="212" y="473" width="150" height="150"/>
+                                <state key="normal" image="stopBtn"/>
+                                <connections>
+                                    <action selector="stopTimerAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jcB-L8-T2X"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="khJ-nM-3IW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="80" id="8aW-bD-L8K"/>
+                            <constraint firstItem="Jr6-nq-cTB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-80" id="Mqk-hx-8gv"/>
+                            <constraint firstItem="fDH-el-ArR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QNt-Dx-Z7O"/>
+                            <constraint firstItem="khJ-nM-3IW" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="100" id="mjr-KE-zQV"/>
+                            <constraint firstItem="Jr6-nq-cTB" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="100" id="oVh-9x-U6l"/>
+                            <constraint firstItem="fDH-el-ArR" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-100" id="yC3-dU-37q"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="DY4-s8-mQF">
+                        <barButtonItem key="rightBarButtonItem" title="時間設定" id="5B8-gH-4Et">
+                            <connections>
+                                <action selector="settingButtonAction:" destination="BYZ-38-t0r" id="5cx-2k-m7T"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="timeDisplay" destination="fDH-el-ArR" id="yed-vd-hN3"/>
+                        <segue destination="QUN-NS-5zS" kind="show" identifier="openSetting" id="OwC-u3-JLG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1048" y="127"/>
+        </scene>
+        <!--Setting View Controller-->
+        <scene sceneID="xfO-Eh-yUz">
+            <objects>
+                <viewController id="QUN-NS-5zS" customClass="SettingViewController" customModule="タイマーアプリ" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wSr-kg-vuE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xqh-fH-j0X">
+                                <rect key="frame" x="0.0" y="88" width="414" height="216"/>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KmM-p6-8bE">
+                                <rect key="frame" x="132" y="473" width="150" height="150"/>
+                                <state key="normal" image="selectBtn"/>
+                                <connections>
+                                    <action selector="chooseAction:" destination="QUN-NS-5zS" eventType="touchUpInside" id="it3-V5-Kgk"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Xqh-fH-j0X" firstAttribute="leading" secondItem="dGe-Ry-ha5" secondAttribute="leading" id="04O-1z-uV2"/>
+                            <constraint firstItem="Xqh-fH-j0X" firstAttribute="top" secondItem="dGe-Ry-ha5" secondAttribute="top" id="Jgg-MW-Mu0"/>
+                            <constraint firstItem="KmM-p6-8bE" firstAttribute="centerY" secondItem="wSr-kg-vuE" secondAttribute="centerY" constant="100" id="keN-jr-Xiw"/>
+                            <constraint firstItem="KmM-p6-8bE" firstAttribute="centerX" secondItem="wSr-kg-vuE" secondAttribute="centerX" id="wC2-DQ-XSn"/>
+                            <constraint firstItem="Xqh-fH-j0X" firstAttribute="trailing" secondItem="dGe-Ry-ha5" secondAttribute="trailing" id="yqE-cA-svg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="dGe-Ry-ha5"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Ukl-9K-69A"/>
+                    <connections>
+                        <outlet property="timerPicker" destination="Xqh-fH-j0X" id="tjI-Rj-D76"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IdW-Um-zBj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1967" y="127"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="kzA-1f-6YD">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="G4W-wq-MM3" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="E56-09-UGF">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="seS-Mt-qgc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QTf-Mp-Qoz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="126.5625"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="selectBtn" width="150" height="150"/>
+        <image name="startBtn" width="150" height="150"/>
+        <image name="stopBtn" width="150" height="150"/>
+    </resources>
+</document>

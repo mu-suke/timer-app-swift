@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "6E519475-AF01-4CFC-86E8-110FCE685B4E"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "98F69A88-31E9-44B4-A975-24420A8473E3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TimerApp/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "98F69A88-31E9-44B4-A975-24420A8473E3 - abaea5fa04178cc4"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "&#x30bf;&#x30a4;&#x30de;&#x30fc;&#x30a2;&#x30d7;&#x30ea;.ViewController.timeDisplay.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "&#x30bf;&#x30a4;&#x30de;&#x30fc;&#x30a2;&#x30d5;&#x309a;&#x30ea;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yusuke/prj/program/lesson/swift/udemy_6days/TimerApp/TimerApp/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "98F69A88-31E9-44B4-A975-24420A8473E3 - 1e875015fe862c8"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "&#x30bf;&#x30a4;&#x30de;&#x30fc;&#x30a2;&#x30d7;&#x30ea;.ViewController.timeDisplay.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "&#x30bf;&#x30a4;&#x30de;&#x30fc;&#x30a2;&#x30d5;&#x309a;&#x30ea;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yusuke/prj/program/lesson/swift/udemy_6days/TimerApp/TimerApp/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "98F69A88-31E9-44B4-A975-24420A8473E3 - 59a83397b10ae979"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "&#x30bf;&#x30a4;&#x30de;&#x30fc;&#x30a2;&#x30d7;&#x30ea;.ViewController.timeDisplay.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "&#x30bf;&#x30a4;&#x30de;&#x30fc;&#x30a2;&#x30d5;&#x309a;&#x30ea;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yusuke/prj/program/lesson/swift/udemy_6days/TimerApp/TimerApp/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "67">
+               </Location>
+               <Location
+                  uuid = "98F69A88-31E9-44B4-A975-24420A8473E3 - 9d8fbe31112900f5"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "&#x30bf;&#x30a4;&#x30de;&#x30fc;&#x30a2;&#x30d7;&#x30ea;.ViewController.timeDisplay.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "&#x30bf;&#x30a4;&#x30de;&#x30fc;&#x30a2;&#x30d5;&#x309a;&#x30ea;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yusuke/prj/program/lesson/swift/udemy_6days/TimerApp/TimerApp/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "98F69A88-31E9-44B4-A975-24420A8473E3 - 414ce53fb94858a8"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "&#x30bf;&#x30a4;&#x30de;&#x30fc;&#x30a2;&#x30d7;&#x30ea;.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; &#x30bf;&#x30a4;&#x30de;&#x30fc;&#x30a2;&#x30d7;&#x30ea;.ViewController"
+                  moduleName = "&#x30bf;&#x30a4;&#x30de;&#x30fc;&#x30a2;&#x30d5;&#x309a;&#x30ea;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yusuke/prj/program/lesson/swift/udemy_6days/TimerApp/TimerApp/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "385">
+               </Location>
+               <Location
+                  uuid = "98F69A88-31E9-44B4-A975-24420A8473E3 - a085aa08bd8095d6"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "&#x30bf;&#x30a4;&#x30de;&#x30fc;&#x30a2;&#x30d7;&#x30ea;.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;&#x30bf;&#x30a4;&#x30de;&#x30fc;&#x30a2;&#x30d7;&#x30ea;.ViewController&gt;"
+                  moduleName = "&#x30bf;&#x30a4;&#x30de;&#x30fc;&#x30a2;&#x30d5;&#x309a;&#x30ea;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yusuke/prj/program/lesson/swift/udemy_6days/TimerApp/TimerApp/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "310">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "36A538DC-80BA-43DB-9D52-F2D9086B5E99"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TimerApp/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "viewDidAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
